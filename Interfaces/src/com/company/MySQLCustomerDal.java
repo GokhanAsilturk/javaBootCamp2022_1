@@ -1,6 +1,6 @@
 package com.company;
 
-public class MySQLCustomerDal extends OracleCUstomerDal implements ICustomerDal,IRepository{
+public class MySQLCustomerDal implements ICustomerDal,IRepository{
     @Override
     public void Add() {
         System.out.println("MySQL eklendi");
